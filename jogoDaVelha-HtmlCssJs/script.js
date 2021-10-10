@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
   comecarJogo();
 
   function verificarGanhador(areasMarcadas) {
-    // console.log(areasMarcadas)
     areasMarcadas.forEach((x) => {
       if (x.textContent === 'X' && !casasComX.includes(x.parentNode.id)) {
         let id = x.parentNode.id;
@@ -67,12 +66,10 @@ document.addEventListener('DOMContentLoaded', () => {
       var inserirSimbolo = document.createElement('a');
       inserirSimbolo.style.color = '#FFCBDB';
       inserirSimbolo.innerHTML = player1Simbolo;
-      console.log(inserirSimbolo);
     } else {
       var inserirSimbolo = document.createElement('a');
       inserirSimbolo.style.color = '#993399';
       inserirSimbolo.innerHTML = player2Simbolo;
-      console.log(inserirSimbolo);
     }
     event.target.appendChild(inserirSimbolo);
     let areasMarcadas = document.querySelectorAll('a');
