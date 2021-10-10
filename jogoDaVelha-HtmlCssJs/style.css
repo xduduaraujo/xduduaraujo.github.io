@@ -1,0 +1,53 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+.principal {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  height: 100%;
+}
+
+.bloco {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+}
+
+.linha1 {
+  display: flex;
+  height: 100%;
+  flex:1;
+}
+
+.linha2 {
+  display: flex;
+  height: 100%;
+  flex:1;
+}
+
+.linha3 {
+  display: flex;
+  height: 100%;
+  flex:1;
+}
+
+.casa {
+  display: flex;
+  border: 5px solid rgb(105, 105, 110);
+  border-radius: 40px;
+  margin: 1px;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+}
+
+
+a {
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow: 5px 2px black;
+}
