@@ -12,3 +12,7 @@
 - https://xduduaraujo.github.io/jogoDaMemoria-HtmlCssJs/
 - https://xduduaraujo.github.io/jogoDaForca-HtmlCssJs/
 
+### Repositório e códigos: 
+- Jogo da velha: https://github.com/xduduaraujo/jogoDaVelha-HtmlCssJs
+- Jogo da memória: https://github.com/xduduaraujo/jogoDaMemoria-HtmlCssJs
+- Jogo da forca: https://github.com/xduduaraujo/jogoDaForca-HtmlCssJs
