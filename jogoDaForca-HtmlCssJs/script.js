@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     startButton.addEventListener('click', resetAndStartGame);
 
     for (i = 0; i < wordLength; i++) {
-      console.log(word[i])
       if (hasWhiteSpace(word[i])) {
         const marginSpan = createSpan(i, 'marginSpan', null);
         wordSpace.appendChild(marginSpan);
