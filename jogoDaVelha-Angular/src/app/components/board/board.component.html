@@ -1,0 +1,13 @@
+<div class="main">
+  <div class="game d-flex">
+    <app-cell
+      *ngFor="let item of svc.cellList"
+      [cell]="item"
+      (checkCell)="svc.checkCell($event)"
+    >
+    </app-cell>
+  </div>
+  <div class="button">
+    <button (click)="clickButton(button)">{{ button.value }}</button>
+  </div>
+</div>

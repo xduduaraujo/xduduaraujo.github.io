@@ -1,0 +1,40 @@
+.main {
+  width: 670px;
+  height: 670px;
+}
+
+.game {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+app-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 670px;
+  height: 200px;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 72px;
+  font-weight: bold;
+  background-color: rgb(246, 182, 248);
+  color: rgb(201, 4, 250);
+  text-shadow: 2px 3px rgb(0, 0, 0);
+  border-radius: 100px;
+}
+
