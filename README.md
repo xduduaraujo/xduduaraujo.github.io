@@ -8,6 +8,7 @@
 - Jogo da Forca (HTML, CSS, JS)
 
 ### Links para acessar:
-https://xduduaraujo.github.io/jogoDaVelha-HtmlCssJs/
-https://xduduaraujo.github.io/jogoDaMemoria-HtmlCssJs/
-https://xduduaraujo.github.io/jogoDaForca-HtmlCssJs/
+- https://xduduaraujo.github.io/jogoDaVelha-HtmlCssJs/
+- https://xduduaraujo.github.io/jogoDaMemoria-HtmlCssJs/
+- https://xduduaraujo.github.io/jogoDaForca-HtmlCssJs/
+
