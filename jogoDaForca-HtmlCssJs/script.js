@@ -23,13 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   async function getData() {
     const response = await fetch(
-      'https://it3-forca-default-rtdb.firebaseio.com/conteudo.json'
+      'https://hangman-game-6910b-default-rtdb.firebaseio.com/hangman-game.json'
     );
     const data = await response.json();
-    const dataLength = data.length;
+    const dataLength = data.palavras.length;
     randomNumber(dataLength);
 
-    return data;
+    return data.palavras;
   }
 
   function loadGame(data) {
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let letters = document.querySelectorAll('.letterField a');
     letters.forEach((x) => wordToCompare.push(x.textContent));
-   
+
     checkWin(wordArray, wordToCompare);
   }
 
