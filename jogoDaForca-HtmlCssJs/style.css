@@ -1,0 +1,238 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+}
+
+.man {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+img {
+  position: absolute;
+}
+
+#head {
+  visibility: hidden;
+  margin-left: 15px;
+  margin-bottom: 270px;
+}
+
+#body {
+  visibility: hidden;
+}
+
+#leftArm {
+  visibility: hidden;
+  margin-right: 90px;
+  margin-bottom: 95px;
+}
+
+#rightArm {
+  visibility: hidden;
+  margin-left: 55px;
+  margin-bottom: 85px;
+}
+
+#leftLeg {
+  visibility: hidden;
+  margin-right: 90px;
+  margin-top: 270px;
+}
+
+#rightLeg {
+  visibility: hidden;
+  margin-left: 53px;
+  margin-top: 270px;
+}
+
+#dead {
+  visibility: hidden;
+  margin-left: 230px;
+}
+
+#win {
+  visibility: hidden;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(216, 134, 248, 0.678),
+    #c24fd186,
+    rgba(204, 45, 196, 0.274)
+  );
+  border: 1px solid rgb(149, 4, 245);
+}
+
+.downSide{
+  display: flex;
+  border: 1px solid rgb(114, 4, 105);
+  flex: 2;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(216, 134, 248, 0.678),
+    #a344af86,
+    rgba(185, 25, 177, 0.274)
+  );
+}
+
+.startButton {
+  display: flex;
+  flex:2
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+}
+
+.wordTip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid purple;
+}
+
+.charInput {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border: 1px solid purple;
+}
+
+.man {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex: 8
+}
+
+.wordSpace {
+  display: flex;
+  justify-items: center;
+  align-items: flex-end;
+  flex: 2
+}
+
+.tip {
+  color: rgb(149, 4, 245);
+  margin: 5px;
+  font-size: 24px;
+  text-shadow: 1px 1px #131212;
+}
+
+.wordSpace .letterField {
+  flex: 1;
+  border-bottom: 1px solid rgb(149, 4, 245);
+  margin: 10px;
+  text-align: center;
+  color: rgb(149, 4, 245);
+  font-size: 64px;
+  text-shadow: 2px 2px #131212;
+}
+
+.marginSpan {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+    font-size: 64px;
+    border-bottom: none;
+}
+
+.startButton button {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-image: linear-gradient(
+    180deg,
+    rgb(216, 134, 248),
+    #9736a3,
+    rgba(214, 6, 204, 0.527)
+  );
+  text-shadow: 3px 3px #000000;
+  font-size: 32px;
+}
+
+#submit {
+  font-size: 20px;
+  margin: 5px;
+  height: 50%;
+  color: white;
+  background-image: linear-gradient(
+    180deg,
+    rgb(216, 134, 248),
+    #9736a3,
+    rgba(214, 6, 204, 0.527)
+  );
+  text-shadow: 2px 2px #000000;
+}
+
+#letter {
+  text-transform:uppercase;
+  text-align:center;
+  font-size:64px;
+  height: 50%;
+  margin: 5px;
+  max-width: 100px;
+}
+
+#tipTitle {
+  color: white;
+  margin: 5px;
+  font-size: 24px;
+  text-shadow: 2px 2px #000000;
+  margin-bottom: 20px;
+}
+
+.rightField {
+  flex:1
+}
+
+.wrongField {
+  flex: 1
+}
+
+.data span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 5px;
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 2px 2px #000000;
+}
+
+.data div > span > a {
+  color: rgb(149, 4, 245);
+  flex: 1;
+  margin: 15px;
+  font-size: 36px;
+  text-shadow: 1px 1px #131212;
+}
